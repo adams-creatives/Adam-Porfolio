@@ -1,0 +1,62 @@
+
+@media only screen and (max-width: 1066px) {
+    .socials-buttons {  /*YOU NEED TO SEND THE SOCIAL MEDIA ICONS TO THE FOOTER */
+        display: none; 
+    }
+
+    #right__line, #left__line, #positionemail {
+        display: none;
+    }
+} 
+
+
+
+@media only screen and (min-width: 280px) and (max-width: 415px){
+    .sun, .sun2, .earth, .earth2 {
+        visibility: hidden;
+    }
+
+    .hero__position {
+        margin-top: -6px; 
+    }
+
+    .positioncube {
+        position: absolute;
+        top: 28%;
+        right: 10%;
+        opacity: 0.2; 
+    }
+    
+} 
+
+@media only screen and (max-width: 485px) {
+  .sun, .sun2 {
+    visibility: hidden;
+  }
+
+}
+
+@media only screen and (max-width: 375px) {
+    .nav__group--link:link, .nav__group--link:visited {
+        font-size: .9rem;  
+  }
+
+    #hero h1 {
+        font-size: 2rem;
+    }
+    
+    #hero .cta {
+        font-size: 1.125rem;
+    }
+
+    .positioncube {
+        visibility: hidden;
+    }
+}
+  
+
+  
+
+
+ 
+
